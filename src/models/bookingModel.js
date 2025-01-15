@@ -1,6 +1,6 @@
 import { db } from '../config/firebase.js';
 
-const collectionName = 'rest-api';
+const collectionName = 'bookings';
 
 export const addBooking = async (data) => {
   const docRef = await db.collection(collectionName).add(data);

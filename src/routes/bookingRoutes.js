@@ -15,6 +15,7 @@ router.get('/:id', bookingController.getBookingById);
 // Update a booking
 router.put('/:id', bookingController.updateBooking);
 
+
 // Delete a booking
 router.delete('/:id', bookingController.deleteBooking);
 
